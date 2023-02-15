@@ -1,2 +1,2 @@
 # everything-you-need-to-know-ansible
-Introductory to advanced ansible scripts, notes and tricks.
+Ansible related notes, resources and scripts.
