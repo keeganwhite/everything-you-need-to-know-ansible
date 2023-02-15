@@ -11,3 +11,4 @@ Ansible is written in Python and Playbooks are written in YAML.
 We can manage Ansible in a GUI using Red Hat Ansible Tower (paid) or the open-source equivalent, AWX.
 
 ## Advantages of using Ansible
+- Ansible is agentless
