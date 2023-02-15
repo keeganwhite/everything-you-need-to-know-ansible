@@ -1,0 +1,11 @@
+---
+- hosts: testServers
+  serial: 1 # do it one by one
+
+  tasks:
+    - name: "Upgrade Software"
+      debug:
+        msg: "Upgrade {{ inventory_hostname }}"
+    - name: "Restart Server"
+      debug:
+        msg: "Restarting {{ inventory_hostname }}"
