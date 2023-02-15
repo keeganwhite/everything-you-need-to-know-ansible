@@ -21,3 +21,8 @@ different nodes.
 ## What are Modules in Ansible
 A module is a reusable, standalone script that Ansible runs on your behalf, either locally or remotely. Modules interact
 with your local machine, an API, or a remote system to perform specific tasks.
+
+## Ansible for Configuration
+Ansible is designed to be minimal in nature. This resulted in it being agentless, SSH-based, state driven and 
+idempotent, i.e. all functions can be executed several times without changing the final result beyond its first 
+iteration.
