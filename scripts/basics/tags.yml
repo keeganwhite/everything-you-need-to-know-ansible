@@ -1,0 +1,10 @@
+---
+- hosts: server1
+
+  tasks:
+    - name: "test reachability"
+      ping:
+      tags: ping
+    - name: "Debug statement"
+      debug:
+        msg: "Hello From Debug"
